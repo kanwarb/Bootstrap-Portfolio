@@ -7,6 +7,22 @@
 
 #imagebg {
     width: 100% ;
-    height: auto;
+    height: 100%;
 }
 
+.img-thumbnail{
+    height:200px;
+    width:  200px;
+  }
+
+  #foot {
+      height: 8vh;
+      background-color: #666666;
+      clear:  both;
+
+  }
+
+  .row:md-4 {
+      margin-left: 2vh;
+      margin-right: 2vh;
+  }
