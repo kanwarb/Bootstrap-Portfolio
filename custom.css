@@ -1,1 +1,6 @@
 /* Custom Stylesheet for specifying colors relevant to this deployment */
+
+.navbar-border {
+    border-bottom: 4px solid #e8e8e8;
+    height: 100%;
+}
