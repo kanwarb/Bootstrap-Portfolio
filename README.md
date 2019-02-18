@@ -12,9 +12,9 @@
 
   *     Responsive images
 
-## Bootstrap Documentation 
+## Latest Bootstrap Documentation 
 
-* [Bootstrap](https://www.bootcampspot-v2.com/)
+* [Documentation](https://www.github.com/)
 
 ## Languages 
 
