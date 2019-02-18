@@ -34,3 +34,8 @@ body {
     border-bottom: 14px solid #4aaaa5!important;
     margin-bottom: 3;
 }
+
+.card-img {
+    width: 200px;
+    height: 200px;
+}
