@@ -6,81 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
     <!-- Bootstrap CSS -->
+   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="custom.css">
     <title>Bootstrap Portfolio</title>
   </head>
   <body>
-    <header>
-    <div class="navbar-border">
-            <div class="container">
-                <div class="row mt-5 mb-0 mr-5">
-                    <div class="col-xs-12 col-sm-6 col-md-4 bg-info text-white ">
-                        <h1 class="bg-info text-white">Kanwar Batra</h1>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                         <div class="col-xs-12 col-sm-6 col-md-4">
-                            <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
-                                    <div class="nav navbar-nav" id="navbarNav">
-                                        <ul class="navbar-nav">
-                                              <li class="nav-item active">
-                                                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                                              </li>
-                                              <li class="nav-item">
-                                                <a class="nav-link" href="#">Portfolio</a>
-                                              </li>
-                                              <li class="nav-item">
-                                                <a class="nav-link" href="#">Contact</a>
-                                              </li>                            
-                                        </ul>
-                                    </div>
-                            </nav>        
-                        </div>    
-                    </div>
-                </div>
-            </div>
-    </div>
+    <header id="#header" class="bg-white border-bottom border-dark">
+      <div class="container-fluid">
+          <div class="row w-100">
+            <div class="col-md-3 col-sm-6 col-xs-12 mt-5"></div>
+            <div class="col-md-2 col-sm-6 col-xs-12 mb-0">
+              <h1 class="bg-info text-center text-white  mt-5 mb-0 p-1">Kanwar Batra</h1>
+          </div>    
+          <div class="col-md-2 col-sm-6 col-xs-12 mt-5"></div>
+            <div class="col-md-4 col-sm-6 col-xs-12 mt-5">
+              <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+                      <div class="nav navbar-nav" id="navbarNav">
+                          <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Contact</a>
+                                </li>                            
+                          </ul>
+                      </div>
+              </nav>  
+            </div>   
+          </div>
+      </div>                
     </header>
     <section>
-              <div class="card" style="height:80vh">
-                    <img id="imagebg" class="card-img"  src="images/dust_scratches.png" alt="Card image">
-                        <div class="card-img-overlay">
-                           <div class="container bg-white mb-3">                            
-                               <h2 class="card-title text-info">About Me</h2>
-                            <hr>
-                                 <div class="image-wrapper float-left pr-4">                            
-                                    <img class="img-thumbnail" src="images/kanwar1.jpg" alt="Kanwar Batra">
-                                 </div>
-                                 <div class="single-post-content-wrapper p-2">
-                                       <p>
-                                            Ability to design , high available, Scalable and Secure Cloud infrastructure on Public , Private and Hybrid using AWS, Openstack, Cloudstack and Kubernetes with Cost optimization to meet budget constraints by moving workloads from on premise to public cloud platform with much more enhanced security setup than 
-                                            was on their existing physical infrastructure. Drive the process from POC to Production
-                                        </p>
-                                        <p>
-                                            Built Multiple Region and Multi Site Private Cloud using Openstack (Mirantis, Ubuntu) and AWS in US , Ireland and Singapore.Created strategy for 
-                                            secure backups and at rest data encryption for system in a fully cloud based system.
-                        
-                                        </p>
-                                        
-                                        <p>
-                                                My other achievements include designing cloud infrastructure for large scale organizations and help them with their transformation
-                                                jourey
-                                        </p>
-                    
-                                        <p>
-                                            In my free time I like to dabble in playing with raspberry pai hardware creating all kinds of things like remote controlled 
-                                            cars and drones that can fly within the confines of my house. I also enjoy traveling so every year try to go on a vacation
-                                        </p>
-                                    </div> 
-                            </div>
-                        </div>
-                       </div>
-            </section>
-            <div class="card-footer bg-info">
-            </div>
+        <div class="container w-50 bg-white  mt-5">                            
+          <div class="row">
+             <div class="col-md-4 col-sm-6 col-xs-12">
+                <h2 class=" text-info pr-3 mb-0">About Me</h2>
+              </div>  
+          </div>  
+          <hr class="border-grey">
+            <div>                            
+               <img class="img-thumbnail ml-2" style="float: left"  src="images/kanwar1.jpg" alt="Kanwar Batra">
+ 
+                  <p>
+                       Ability to design , high available, Scalable and Secure Cloud infrastructure on Public , Private and Hybrid using AWS, Openstack, Cloudstack and Kubernetes with Cost optimization to meet budget constraints by moving workloads from on premise to public cloud platform with much more enhanced security setup than 
+                       was on their existing physical infrastructure. Drive the process from POC to Production
+                   </p>
+                   <p>
+                       Built Multiple Region and Multi Site Private Cloud using Openstack (Mirantis, Ubuntu) and AWS in US , Ireland and Singapore.Created strategy for 
+                       secure backups and at rest data encryption for system in a fully cloud based system.
+   
+                   </p>
+                   
+                   <p>
+                           My other achievements include designing cloud infrastructure for large scale organizations and help them with their transformation
+                           jourey
+                   </p>
 
+                   <p>
+                       In my free time I like to dabble in playing with raspberry pai hardware creating all kinds of things like remote controlled 
+                       cars and drones that can fly within the confines of my house. I also enjoy traveling so every year try to go on a vacation
+                   </p>
+ 
+            </div>
+        </div>    
+    </section>
+    <section>
+        <div class="row mb-0">
+            <div class="col-md-3 col-sm-6 col-xs-12 mt-5"></div>
+        </div>
+        <div class="row mb-0">
+            <div class="col-md-3 col-sm-6 col-xs-12 mt-5"></div>
+        </div>
+        <div class="row mb-0">
+            <div class="col-md-3 col-sm-6 col-xs-12 mt-5"></div>
+        </div>
+        <div class="row mb-0">
+            <div class="col-md-3 col-sm-6 col-xs-12 mt-5"></div>
+        </div>
+        <div id="brder-bottom" class="row mt-5 mb-0"></div>
+
+    </section>
     
-    <footer id="foot" class='bg-dark text-white text-center pt-5'>
+    <footer id="#foot" class='bg-dark text-white text-center pt-5 mt-0'>
             <div class="container">
                     <span class="text-muted">Copyright &copy;</span>
             </div>
