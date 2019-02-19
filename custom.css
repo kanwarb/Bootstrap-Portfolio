@@ -38,8 +38,10 @@ body {
 .card-img {
     width: 200px;
     height: 200px;
+    
 }
 
-.navbar:hover {
-        background-color: black;
-    }
+.imgcol
+{
+    margin-right: 6em;
+}
