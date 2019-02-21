@@ -48,10 +48,32 @@ body {
 }
 
 @import "bootstrap";
+@media (min-width: 440px) {
+    .mysize {
+       float: relative;
+       width: fit-content;
+       height: 4rem;
+       margin-top: 3rem;
+       margin-left: 5%; /* <- your value here */
+       font-weight: 400;
+       line-height: 2rem;
+
+    }
+    .navalign {
+         margin-top: 3em;
+         font-weight: 400;
+    }
+    .divhide {
+        margin: 0;
+        height: 0 auto;
+    }
+}
+
 @media (min-width: 640px) {
     .mysize {
        float: relative;
        width: fit-content;
+       height: 4rem;
        margin-top: 3rem;
        margin-left: 10%; /* <- your value here */
        font-weight: 400;
