@@ -19,8 +19,8 @@ body {
 }
 
 .img-thumbnail{
-    height:200px;
-    width:  200px;
+    height:150px;
+    width:  150px;
   }
 
   #foot {
@@ -43,5 +43,15 @@ body {
 
 .imgcol
 {
-    margin-right: 6em;
+    width: fit-content;
+    float: left;
+}
+
+@import "bootstrap";
+@media (min-width: 992px) {
+    .mysize {
+     
+       margin-left: 42%; /* <- your value here */
+
+    }
 }
